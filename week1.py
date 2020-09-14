@@ -61,8 +61,6 @@ class FlattenedBidirectionalIterator:
 		self.tempForward = None
 		self.tempBackward = None
 
-		print(self.forward)
-
 	# Method that merges all iterators in an interleaved fashion
 	def roundrobin(self, iterators):
 		pending = len(iterators)
